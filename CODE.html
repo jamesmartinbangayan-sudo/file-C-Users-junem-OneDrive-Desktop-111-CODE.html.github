@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Year Representatives</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: white;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 12px;
+            object-fit: cover;
+            border: 3px solid #764ba2;
+            margin-right: 20px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        .section {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 5px 15px;
+            background-color: #f0f2ff;
+            color: #5a67d8;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>3rd Year Representatives</h1>
+
+    <div class="container">
+
+        <!-- FIRST CARD -->
+        <div class="card">
+            <img src="images/1.jpg" alt="Danaya Rose Cantillon" class="profile-img">
+            <div class="info">
+                <p class="name">Danaya Rose Cantillon</p>
+                <span class="section">BSIS 3A</span>
+            </div>
+        </div>
+
+        <!-- SECOND CARD -->
+        <div class="card">
+            <img src="images/2.jpg" alt="Chelsea Rayne Olavides" class="profile-img">
+            <div class="info">
+                <p class="name">Chelsea Rayne Olavides</p>
+                <span class="section">BSIS 3B</span>
+            </div>
+        </div>
+
+        <!-- THIRD CARD -->
+        <div class="card">
+            <img src="images/3.jpg" alt="Teresa Lyka A. Junio" class="profile-img">
+            <div class="info">
+                <p class="name">Teresa Lyka A. Junio</p>
+                <span class="section">BSIS 3C</span>
+            </div>
+        </div>
+
+               <!-- FOURTH CARD -->
+        <div class="card">
+            <img src="images/4.jpg" alt="Rheena Rose L. Llose" class="profile-img">
+            <div class="info">
+                <p class="name">Rheena Rose L. Llose</p>
+                <span class="section">BSIS 3D</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
